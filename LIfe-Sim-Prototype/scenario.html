@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Sim - Scenario</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#8b5cf6'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 overflow-x-hidden">
+    <div class="min-h-screen relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-100/30 via-purple-100/20 to-pink-100/30 animate-pulse"></div>
+        <header class="relative z-10 p-6">
+            <div class="flex justify-between items-center">
+                <img src="logo.png" alt="Life Sim Logo" class="h-12">
+                <button id="resetProgress" class="bg-red-500 text-white px-4 py-2 rounded-button hover:bg-red-600 transition-colors duration-300">
+                    Reset Progress
+                </button>
+            </div>
+        </header>
+        <main class="relative z-10 px-6 pb-12">
+            <div class="max-w-3xl mx-auto">
+                <div class="bg-white/20 backdrop-blur-md rounded-xl p-8 border border-white/30 mb-8 opacity-0 animate-fadeIn">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span id="scenarioIcon" class="text-3xl"></span>
+                        <h1 id="scenarioTitle" class="text-3xl font-bold text-gray-800"></h1>
+                    </div>
+                    <p id="scenarioDescription" class="text-gray-600 text-lg mb-4"></p>
+                    <p id="scenarioStory" class="text-gray-600 text-base leading-relaxed mb-6"></p>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2">
+                            <div class="w-48 h-3 bg-gray-200 rounded-full overflow-hidden">
+                                <div id="scenarioProgress" class="h-full bg-primary rounded-full"></div>
+                            </div>
+                            <span id="progressText" class="text-sm text-gray-500"></span>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <div id="scenarioStars"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a id="nextButton" href="#" class="bg-primary text-white px-6 py-3 rounded-button hover:bg-secondary transition-colors duration-300 opacity-0 animate-fadeIn" style="animation-delay: 0.3s;">
+                        Next: Take the Quiz
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

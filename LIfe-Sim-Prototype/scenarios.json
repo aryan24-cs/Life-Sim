@@ -1,0 +1,434 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "icon": "⏰",
+      "title": "Time Management Crunch",
+      "description": "Balance studying, assignments, and social life without burning out.",
+      "story": "You're a college freshman with a packed schedule: three assignments due this week, a part-time job, and friends inviting you to a weekend party. You’re struggling to find time for everything and feel overwhelmed. How can you prioritize and manage your time effectively?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s the best way to start managing your time effectively?",
+          "options": [
+            { "text": "Create a prioritized to-do list", "isCorrect": true, "explanation": "A prioritized to-do list helps you focus on high-impact tasks first, reducing stress and improving efficiency." },
+            { "text": "Work on tasks randomly", "isCorrect": false, "explanation": "Random task selection leads to inefficiency and missed deadlines." },
+            { "text": "Multitask on everything", "isCorrect": false, "explanation": "Multitasking reduces focus and quality of work." },
+            { "text": "Skip sleep to finish tasks", "isCorrect": false, "explanation": "Sleep deprivation harms productivity and health." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How should you handle conflicting deadlines?",
+          "options": [
+            { "text": "Break tasks into smaller steps and schedule them", "isCorrect": true, "explanation": "Breaking tasks into manageable chunks and scheduling them prevents last-minute stress." },
+            { "text": "Focus only on the easiest task", "isCorrect": false, "explanation": "Ignoring important tasks can lead to poor grades or missed opportunities." },
+            { "text": "Ask for extensions on all assignments", "isCorrect": false, "explanation": "Frequent extensions may harm your reputation and aren’t always granted." },
+            { "text": "Ignore less urgent tasks", "isCorrect": false, "explanation": "Neglecting tasks can lead to a backlog and increased stress." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a good strategy to avoid procrastination?",
+          "options": [
+            { "text": "Use the Pomodoro technique", "isCorrect": true, "explanation": "The Pomodoro technique (25-minute work sessions with breaks) boosts focus and reduces procrastination." },
+            { "text": "Wait for motivation to start", "isCorrect": false, "explanation": "Waiting for motivation often leads to delays; action creates momentum." },
+            { "text": "Work only when under pressure", "isCorrect": false, "explanation": "Last-minute work compromises quality and increases stress." },
+            { "text": "Avoid planning altogether", "isCorrect": false, "explanation": "Lack of planning leads to disorganization and missed deadlines." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "icon": "💸",
+      "title": "Budgeting on a Student Income",
+      "description": "Manage limited funds while covering essentials and enjoying life.",
+      "story": "As a student living on a tight budget from a part-time job and loans, you’re struggling to pay for rent, groceries, and textbooks while wanting to save for emergencies. How can you stretch your money and avoid financial stress?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s the first step to create a student budget?",
+          "options": [
+            { "text": "Track your income and expenses", "isCorrect": true, "explanation": "Tracking income and expenses helps you understand your spending habits and plan effectively." },
+            { "text": "Spend freely and adjust later", "isCorrect": false, "explanation": "Uncontrolled spending can lead to debt and financial strain." },
+            { "text": "Borrow money to cover costs", "isCorrect": false, "explanation": "Borrowing without a plan increases debt and interest payments." },
+            { "text": "Ignore small expenses", "isCorrect": false, "explanation": "Small expenses add up and can derail your budget." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you reduce unnecessary spending?",
+          "options": [
+            { "text": "Cook meals at home", "isCorrect": true, "explanation": "Cooking at home is cheaper than eating out and helps you save money." },
+            { "text": "Buy expensive coffee daily", "isCorrect": false, "explanation": "Daily coffee purchases add up quickly, draining your budget." },
+            { "text": "Always buy new textbooks", "isCorrect": false, "explanation": "New textbooks are costly; used or digital versions are often cheaper." },
+            { "text": "Use credit cards for all purchases", "isCorrect": false, "explanation": "Credit card debt can accumulate if not paid off monthly." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a smart way to save for emergencies?",
+          "options": [
+            { "text": "Set aside a small amount each month", "isCorrect": true, "explanation": "Consistent small savings build an emergency fund over time." },
+            { "text": "Wait until you have extra money", "isCorrect": false, "explanation": "Waiting for extra money often delays saving indefinitely." },
+            { "text": "Spend all income each month", "isCorrect": false, "explanation": "Spending everything leaves you vulnerable to unexpected costs." },
+            { "text": "Rely on loans for emergencies", "isCorrect": false, "explanation": "Loans increase debt and interest, making emergencies costlier." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "icon": "📚",
+      "title": "Academic Pressure",
+      "description": "Handle the stress of exams, assignments, and high expectations.",
+      "story": "Midterms are approaching, and you’re juggling multiple assignments, group projects, and exam prep. The pressure to maintain good grades is intense, and you’re feeling anxious. How can you stay focused and perform well?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s the best way to prepare for exams?",
+          "options": [
+            { "text": "Study in small, regular sessions", "isCorrect": true, "explanation": "Spaced repetition improves retention and reduces cramming stress." },
+            { "text": "Cram the night before", "isCorrect": false, "explanation": "Cramming leads to poor retention and exhaustion." },
+            { "text": "Skip reviewing notes", "isCorrect": false, "explanation": "Reviewing notes reinforces key concepts." },
+            { "text": "Only study new material", "isCorrect": false, "explanation": "Revisiting old material ensures a stronger foundation." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you manage academic stress?",
+          "options": [
+            { "text": "Practice mindfulness or meditation", "isCorrect": true, "explanation": "Mindfulness reduces anxiety and improves focus." },
+            { "text": "Ignore stress and keep working", "isCorrect": false, "explanation": "Ignoring stress can lead to burnout and reduced performance." },
+            { "text": "Avoid asking for help", "isCorrect": false, "explanation": "Seeking help from professors or peers can alleviate stress." },
+            { "text": "Overcommit to more tasks", "isCorrect": false, "explanation": "Overcommitting increases stress and reduces efficiency." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a good strategy for group projects?",
+          "options": [
+            { "text": "Set clear roles and deadlines", "isCorrect": true, "explanation": "Clear roles and deadlines ensure accountability and smooth collaboration." },
+            { "text": "Work alone to avoid conflict", "isCorrect": false, "explanation": "Avoiding collaboration can lead to incomplete or low-quality work." },
+            { "text": "Let one person do everything", "isCorrect": false, "explanation": "Uneven workload causes resentment and poor team dynamics." },
+            { "text": "Miss group meetings", "isCorrect": false, "explanation": "Missing meetings disrupts communication and planning." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "icon": "🤝",
+      "title": "Social Anxiety",
+      "description": "Overcome nervousness in social situations and build connections.",
+      "story": "You’re new at school and feel anxious about making friends. Group discussions and social events make you nervous, but you want to connect with peers. How can you build confidence and form meaningful relationships?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s a good way to start a conversation?",
+          "options": [
+            { "text": "Ask open-ended questions", "isCorrect": true, "explanation": "Open-ended questions encourage dialogue and show interest." },
+            { "text": "Talk only about yourself", "isCorrect": false, "explanation": "Self-focused talk can alienate others." },
+            { "text": "Stay silent to avoid mistakes", "isCorrect": false, "explanation": "Silence prevents connection and increases isolation." },
+            { "text": "Use complex jargon", "isCorrect": false, "explanation": "Jargon can confuse and hinder genuine communication." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you reduce social anxiety at events?",
+          "options": [
+            { "text": "Prepare a few conversation starters", "isCorrect": true, "explanation": "Prepared topics reduce anxiety and make interactions smoother." },
+            { "text": "Avoid social events entirely", "isCorrect": false, "explanation": "Avoidance prevents building relationships." },
+            { "text": "Stay on your phone", "isCorrect": false, "explanation": "Using your phone signals disinterest and hinders connection." },
+            { "text": "Arrive unprepared", "isCorrect": false, "explanation": "Lack of preparation increases anxiety and awkwardness." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What helps build lasting friendships?",
+          "options": [
+            { "text": "Show genuine interest in others", "isCorrect": true, "explanation": "Genuine interest fosters trust and deepens connections." },
+            { "text": "Impress others with achievements", "isCorrect": false, "explanation": "Boasting can alienate peers." },
+            { "text": "Avoid sharing personal thoughts", "isCorrect": false, "explanation": "Vulnerability builds stronger bonds." },
+            { "text": "Only connect online", "isCorrect": false, "explanation": "Online-only connections lack depth compared to in-person interactions." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "icon": "🧠",
+      "title": "Mental Health Balance",
+      "description": "Manage stress and maintain mental well-being during tough times.",
+      "story": "Between school, work, and personal responsibilities, you’re feeling mentally drained. Small setbacks feel overwhelming, and you’re struggling to stay positive. How can you prioritize your mental health?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s a healthy way to cope with stress?",
+          "options": [
+            { "text": "Practice deep breathing exercises", "isCorrect": true, "explanation": "Deep breathing calms the nervous system and reduces stress." },
+            { "text": "Bottle up your emotions", "isCorrect": false, "explanation": "Suppressing emotions can worsen mental health." },
+            { "text": "Overwork to distract yourself", "isCorrect": false, "explanation": "Overworking leads to burnout and increased stress." },
+            { "text": "Avoid talking to anyone", "isCorrect": false, "explanation": "Isolation can exacerbate stress and anxiety." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you build a support system?",
+          "options": [
+            { "text": "Reach out to trusted friends or counselors", "isCorrect": true, "explanation": "A support system provides emotional relief and perspective." },
+            { "text": "Keep struggles private", "isCorrect": false, "explanation": "Privacy can lead to isolation and worsen mental health." },
+            { "text": "Rely only on social media", "isCorrect": false, "explanation": "Social media lacks the depth of real support." },
+            { "text": "Avoid seeking help", "isCorrect": false, "explanation": "Not seeking help delays recovery and support." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a sign you should seek professional help?",
+          "options": [
+            { "text": "Persistent feelings of hopelessness", "isCorrect": true, "explanation": "Persistent hopelessness may indicate a need for professional support." },
+            { "text": "Occasional bad days", "isCorrect": false, "explanation": "Bad days are normal; persistent issues warrant help." },
+            { "text": "Feeling tired after studying", "isCorrect": false, "explanation": "Tiredness from studying is normal, not a mental health crisis." },
+            { "text": "Enjoying social events", "isCorrect": false, "explanation": "Enjoying events is a positive sign, not a concern." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "icon": "📝",
+      "title": "Choosing a Major",
+      "description": "Decide on a field of study that aligns with your interests and goals.",
+      "story": "You’re nearing the deadline to declare your major, but you’re torn between a practical degree with job security and a passion-driven field with less certainty. How do you make an informed choice?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s a key factor in choosing a major?",
+          "options": [
+            { "text": "Align with your interests and strengths", "isCorrect": true, "explanation": "A major that matches your passions and skills leads to fulfillment and success." },
+            { "text": "Choose based on parental pressure", "isCorrect": false, "explanation": "External pressure may lead to an unfulfilling career." },
+            { "text": "Pick the highest-paying field", "isCorrect": false, "explanation": "High pay doesn’t guarantee satisfaction if you dislike the work." },
+            { "text": "Select randomly", "isCorrect": false, "explanation": "Random choices can lead to regret and wasted time." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you explore potential majors?",
+          "options": [
+            { "text": "Take introductory courses and talk to advisors", "isCorrect": true, "explanation": "Courses and advisors provide insights into fields and career paths." },
+            { "text": "Ignore course descriptions", "isCorrect": false, "explanation": "Course descriptions help you understand what a major entails." },
+            { "text": "Follow friends’ choices", "isCorrect": false, "explanation": "Friends’ choices may not align with your goals." },
+            { "text": "Avoid researching careers", "isCorrect": false, "explanation": "Researching careers helps you make informed decisions." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What if you’re unsure about your choice?",
+          "options": [
+            { "text": "Start with a broad major and specialize later", "isCorrect": true, "explanation": "A broad major keeps options open while you explore interests." },
+            { "text": "Delay choosing indefinitely", "isCorrect": false, "explanation": "Delaying can lead to academic setbacks." },
+            { "text": "Choose a random major", "isCorrect": false, "explanation": "Random choices may not align with your goals." },
+            { "text": "Avoid all academic advising", "isCorrect": false, "explanation": "Advisors can guide you through uncertainty." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "icon": "💻",
+      "title": "Digital Distractions",
+      "description": "Stay focused in an era of constant notifications and social media.",
+      "story": "Your phone buzzes constantly with social media notifications, and you find yourself scrolling instead of studying. Deadlines are approaching, and you need to regain focus. How can you minimize digital distractions?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s an effective way to reduce phone distractions?",
+          "options": [
+            { "text": "Use app blockers during study time", "isCorrect": true, "explanation": "App blockers limit access to distracting apps, improving focus." },
+            { "text": "Keep your phone nearby", "isCorrect": false, "explanation": "A nearby phone tempts you to check it." },
+            { "text": "Check notifications frequently", "isCorrect": false, "explanation": "Frequent checks disrupt focus and productivity." },
+            { "text": "Leave apps open", "isCorrect": false, "explanation": "Open apps invite distraction and multitasking." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you create a productive study environment?",
+          "options": [
+            { "text": "Designate a distraction-free study space", "isCorrect": true, "explanation": "A dedicated space signals your brain to focus on work." },
+            { "text": "Study with the TV on", "isCorrect": false, "explanation": "Background noise like TV reduces concentration." },
+            { "text": "Keep social media open", "isCorrect": false, "explanation": "Social media competes for your attention." },
+            { "text": "Study in a busy café", "isCorrect": false, "explanation": "Busy environments can disrupt focus." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a good way to manage notification overload?",
+          "options": [
+            { "text": "Turn on Do Not Disturb mode", "isCorrect": true, "explanation": "Do Not Disturb silences non-essential notifications, helping you focus." },
+            { "text": "Respond to every notification", "isCorrect": false, "explanation": "Constant responses disrupt your workflow." },
+            { "text": "Keep all notifications on", "isCorrect": false, "explanation": "Constant alerts break concentration." },
+            { "text": "Ignore notifications entirely", "isCorrect": false, "explanation": "Ignoring all notifications may cause you to miss important updates." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "icon": "🏋️",
+      "title": "Physical Health on a Busy Schedule",
+      "description": "Stay active and healthy despite a packed student life.",
+      "story": "Between classes and studying, you barely have time to eat well or exercise. You’re feeling sluggish and want to improve your physical health. How can you incorporate healthy habits into your busy routine?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s a practical way to stay active as a student?",
+          "options": [
+            { "text": "Take short walks between classes", "isCorrect": true, "explanation": "Short walks are easy to fit in and boost energy and health." },
+            { "text": "Join a competitive sports team", "isCorrect": false, "explanation": "Competitive sports may be time-intensive for a busy schedule." },
+            { "text": "Exercise only on weekends", "isCorrect": false, "explanation": "Infrequent exercise is less effective for consistent health." },
+            { "text": "Skip exercise entirely", "isCorrect": false, "explanation": "Skipping exercise harms physical and mental health." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you improve your eating habits?",
+          "options": [
+            { "text": "Meal prep simple, healthy meals", "isCorrect": true, "explanation": "Meal prepping saves time and ensures nutritious meals." },
+            { "text": "Rely on fast food", "isCorrect": false, "explanation": "Fast food is often unhealthy and expensive." },
+            { "text": "Skip meals to save time", "isCorrect": false, "explanation": "Skipping meals leads to low energy and poor health." },
+            { "text": "Eat snacks all day", "isCorrect": false, "explanation": "Constant snacking can lead to unbalanced nutrition." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a benefit of regular exercise for students?",
+          "options": [
+            { "text": "Improves focus and reduces stress", "isCorrect": true, "explanation": "Exercise boosts brain function and reduces anxiety, aiding academic performance." },
+            { "text": "Takes up all free time", "isCorrect": false, "explanation": "Exercise can be time-efficient with proper planning." },
+            { "text": "Increases fatigue", "isCorrect": false, "explanation": "Moderate exercise boosts energy, not fatigue." },
+            { "text": "Requires expensive equipment", "isCorrect": false, "explanation": "Many exercises, like walking, need no equipment." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "icon": "🤔",
+      "title": "Dealing with Failure",
+      "description": "Learn to bounce back from setbacks like bad grades or rejections.",
+      "story": "You failed an important exam, and it’s shaken your confidence. You’re worried about your GPA and future opportunities. How can you recover from this setback and grow stronger?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s the first step after failing an exam?",
+          "options": [
+            { "text": "Review mistakes with a teacher", "isCorrect": true, "explanation": "Reviewing mistakes helps you understand errors and improve." },
+            { "text": "Ignore the results", "isCorrect": false, "explanation": "Ignoring failure prevents learning and growth." },
+            { "text": "Give up on the subject", "isCorrect": false, "explanation": "Giving up limits future opportunities." },
+            { "text": "Blame external factors", "isCorrect": false, "explanation": "Blaming others avoids taking responsibility for improvement." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can failure help you grow?",
+          "options": [
+            { "text": "It teaches resilience and new strategies", "isCorrect": true, "explanation": "Failure highlights areas for improvement and builds perseverance." },
+            { "text": "It proves you’re not capable", "isCorrect": false, "explanation": "Failure is a learning opportunity, not a measure of ability." },
+            { "text": "It should be avoided at all costs", "isCorrect": false, "explanation": "Avoiding failure limits risk-taking and growth." },
+            { "text": "It means you should quit", "isCorrect": false, "explanation": "Quitting prevents overcoming challenges." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a good mindset after a setback?",
+          "options": [
+            { "text": "View it as a learning opportunity", "isCorrect": true, "explanation": "A growth mindset turns setbacks into chances to improve." },
+            { "text": "Focus on your weaknesses", "isCorrect": false, "explanation": "Focusing only on weaknesses can lower confidence." },
+            { "text": "Compare yourself to others", "isCorrect": false, "explanation": "Comparison can harm self-esteem and focus." },
+            { "text": "Avoid trying again", "isCorrect": false, "explanation": "Not retrying prevents progress and recovery." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "icon": "🚀",
+      "title": "Career Planning",
+      "description": "Prepare for internships and future job opportunities.",
+      "story": "You’re in your final year and need to secure an internship to kickstart your career. The application process is competitive, and you’re unsure how to stand out. How can you prepare effectively?",
+      "progress": 0,
+      "total": 3,
+      "stars": 0,
+      "status": "In Progress",
+      "questions": [
+        {
+          "id": 1,
+          "text": "What’s a key step to prepare for internships?",
+          "options": [
+            { "text": "Build a strong resume and cover letter", "isCorrect": true, "explanation": "A tailored resume and cover letter highlight your skills and fit." },
+            { "text": "Apply without preparation", "isCorrect": false, "explanation": "Unprepared applications are less competitive." },
+            { "text": "Only apply to one company", "isCorrect": false, "explanation": "Applying to multiple opportunities increases your chances." },
+            { "text": "Skip networking events", "isCorrect": false, "explanation": "Networking can open doors to opportunities." }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How can you stand out in interviews?",
+          "options": [
+            { "text": "Research the company and practice questions", "isCorrect": true, "explanation": "Preparation shows interest and readiness for the role." },
+            { "text": "Wing it during the interview", "isCorrect": false, "explanation": "Lack of preparation can make you seem unqualified." },
+            { "text": "Focus only on salary", "isCorrect": false, "explanation": "Focusing on salary ignores fit and growth opportunities." },
+            { "text": "Avoid asking questions", "isCorrect": false, "explanation": "Asking questions shows engagement and curiosity." }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What’s a benefit of internships?",
+          "options": [
+            { "text": "Gain real-world experience and skills", "isCorrect": true, "explanation": "Internships provide practical skills and industry insights." },
+            { "text": "Guarantee a high-paying job", "isCorrect": false, "explanation": "Internships don’t guarantee jobs but improve your chances." },
+            { "text": "Replace formal education", "isCorrect": false, "explanation": "Internships complement, not replace, education." },
+            { "text": "Require no effort", "isCorrect": false, "explanation": "Internships require active engagement to be valuable." }
+          ]
+        }
+      ]
+    }
+  ]
+}

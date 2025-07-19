@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Sim - Interactive Life Scenarios</title>
+    <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#6366f1',
+                        secondary: '#8b5cf6'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 overflow-x-hidden">
+    <div class="min-h-screen relative">
+        <div class="absolute inset-0 bg-gradient-to-br from-blue-100/30 via-purple-100/20 to-pink-100/30 animate-pulse"></div>
+        <header class="relative z-10 p-6">
+            <div class="flex justify-between items-center">
+                <img src="logo.png" alt="Life Sim Logo" class="h-20">
+                <button id="resetProgress" class="bg-red-500 text-white px-4 py-2 rounded-button hover:bg-red-600 transition-colors duration-300">
+                    Reset Progress
+                </button>
+            </div>
+        </header>
+        <main class="relative z-10 px-6 pb-12">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12 pt-8">
+                    <h1 class="text-6xl font-bold text-gray-800 mb-6 opacity-0 animate-fadeIn">Life-Sim</h1>
+                    <p class="text-xl text-gray-600 mb-8 opacity-0 animate-fadeIn" style="animation-delay: 0.3s;">
+                        Explore real-world challenges and learn practical solutions
+                    </p>
+                    <div class="max-w-md mx-auto mb-12 opacity-0 animate-fadeIn" style="animation-delay: 0.6s;">
+                        <div class="relative">
+                            <div class="absolute inset-0 bg-white/20 backdrop-blur-md rounded-full border border-white/30"></div>
+                            <div class="relative flex items-center">
+                                <div class="w-12 h-12 flex items-center justify-center">
+                                    <i class="ri-search-line text-gray-500 text-lg"></i>
+                                </div>
+                                <input type="text" id="searchInput" placeholder="Search scenarios..." class="flex-1 bg-transparent border-none outline-none text-gray-700 placeholder-gray-500 pr-4 text-sm">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="scenarioGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+                <div class="mt-16 text-center">
+                    <div class="bg-white/20 backdrop-blur-md rounded-xl p-8 border border-white/30 max-w-2xl mx-auto opacity-0 animate-fadeIn" style="animation-delay: 2.7s;">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Your Progress</h2>
+                        <div class="flex items-center justify-center gap-8 mb-6">
+                            <div class="text-center">
+                                <div id="starsEarned" class="text-3xl font-bold text-primary mb-1">0</div>
+                                <div class="text-sm text-gray-600">Stars Earned</div>
+                            </div>
+                            <div class="text-center">
+                                <div id="scenariosCompleted" class="text-3xl font-bold text-secondary mb-1">0</div>
+                                <div class="text-sm text-gray-600">Scenarios Completed</div>
+                            </div>
+                            <div class="text-center">
+                                <div id="trophiesUnlocked" class="text-3xl font-bold text-yellow-500 mb-1">0</div>
+                                <div class="text-sm text-gray-600">Trophies Unlocked</div>
+                            </div>
+                        </div>
+                        <div class="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
+                            <div id="overallProgress" class="h-full bg-gradient-to-r from-primary to-secondary rounded-full"></div>
+                        </div>
+                        <p id="progressText" class="text-sm text-gray-600 mt-2">Overall Progress: 0%</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

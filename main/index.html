@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life-Sim: Learn Real-Life Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="night-theme">
+    <header>
+        <button id="back-button" aria-label="Back to previous page">Back ⬅️</button>
+        <img src="logo-placeholder.png" alt="Life-Sim Logo" class="logo">
+        <p>Master real-world challenges with fun scenarios! 🚀</p>
+        <div id="progress">
+            <span id="stars">Stars: 0 ⭐</span>
+            <span id="trophies">Trophies: 0 🏆</span>
+        </div>
+        <button id="theme-toggle" aria-label="Toggle theme">Switch to Day Theme ☀️</button>
+        <input type="text" id="search-bar" placeholder="Search scenarios or age group..." aria-label="Search scenarios or age group">
+    </header>
+    <main>
+        <section id="scenario-list">
+            <h2>Choose a Scenario by Age Group 🎮</h2>
+            <div id="age-groups">
+                <div class="age-group">
+                    <h3 class="age-group-header" data-age="15-18">Ages 15–18 <span class="toggle-icon">▼</span></h3>
+                    <div class="scenario-grid" data-age="15-18"></div>
+                </div>
+                <div class="age-group">
+                    <h3 class="age-group-header" data-age="18-20">Ages 18–20 <span class="toggle-icon">▼</span></h3>
+                    <div class="scenario-grid" data-age="18-20"></div>
+                </div>
+                <div class="age-group">
+                    <h3 class="age-group-header" data-age="21-25">Ages 21–25 <span class="toggle-icon">▼</span></h3>
+                    <div class="scenario-grid" data-age="21-25"></div>
+                </div>
+                <div class="age-group">
+                    <h3 class="age-group-header" data-age="25-28">Ages 25–28 <span class="toggle-icon">▼</span></h3>
+                    <div class="scenario-grid" data-age="25-28"></div>
+                </div>
+            </div>
+        </section>
+        <section id="scenario-content" style="display: none;">
+            <h2 id="scenario-title"></h2>
+            <div id="progress-bar">
+                <div id="progress-fill"></div>
+            </div>
+            <img src="scenario-placeholder.png" alt="Scenario Image" id="scenario-image" class="scenario-image">
+            <div id="scenario-story"></div>
+            <button id="speak-button" aria-label="Open speak scenario modal">Speak Scenario 🔊</button>
+            <div id="video-section">
+                <h3>Watch & Learn 📺</h3>
+                <video controls src="video-placeholder.mp4" poster="video-poster-placeholder.png" aria-label="Scenario tutorial video"></video>
+            </div>
+            <h3 id="question-text">Make Your Choice 🤔</h3>
+            <div id="choices"></div>
+            <div id="feedback"></div>
+            <button id="next-question" style="display: none;" aria-label="Next question">Next Question</button>
+            <button id="back-to-scenarios" style="display: none;" aria-label="Back to scenarios">Back to Scenarios</button>
+        </section>
+        <div id="celebration" class="celebration hidden">
+            <h2>Correct! 🎉</h2>
+            <p>You earned a star! ⭐</p>
+            <button onclick="closeCelebration()" aria-label="Continue">Continue</button>
+        </div>
+        <div id="wrong-answer" class="wrong-answer hidden">
+            <h2>Wrong Answer 😔</h2>
+            <p id="wrong-explanation"></p>
+            <button onclick="closeWrongAnswer()" aria-label="Try again">Try Again</button>
+        </div>
+        <div id="speak-modal" class="speak-modal hidden">
+            <h2>Speak Scenario 🔊</h2>
+            <p id="speak-status">Ready to read</p>
+            <button id="play-speak" aria-label="Play scenario text">Play ▶️</button>
+            <button id="pause-stop-speak" aria-label="Pause or stop scenario text" disabled>Pause/Stop ⏸️</button>
+            <button id="close-speak-modal" aria-label="Close speak modal">Close ❌</button>
+        </div>
+    </main>
+    <canvas id="background-canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
